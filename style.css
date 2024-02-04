@@ -200,3 +200,46 @@ footer {
   font-style: normal;
   font-weight: 500;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .sobre {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 10%;
+  }
+  .sobre img {
+    width: 100%;
+  }
+  .prod {
+    grid-template-columns: repeat(1, 100%);
+  }
+  .card {
+    width: 100%;
+  }
+  .card img {
+    width: 100%;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  button {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  footer {
+    padding: 2rem;
+  }
+  .copy-footer {
+    font-size: 0.8rem;
+  }
+  .copy-autor {
+    font-size: 0.6rem;
+  }
+  
+}
