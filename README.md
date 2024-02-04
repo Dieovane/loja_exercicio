@@ -1,6 +1,7 @@
 <h1 align="center">
-  Ebac Coffee
+  Kiki's Coffee
 </h1>
+<p align="center">Exercício de responsividade proposto pela Ebac</p>
 
 
 <p align="center">
