@@ -104,15 +104,19 @@ p {
   margin-bottom: 1rem;
 }
 
-
 /* seção de produtos */
 .prod {
-  display: flex;
-  flex-direction: row;
-  padding: 5rem 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  column-gap: 1%;
+  row-gap: 2rem;
+  padding: 1rem 10%;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  border-radius: 2rem;
 }
 
 .card {
@@ -137,10 +141,13 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 3rem;
-  padding-left: 0.5rem;
   font-size: 2.5rem;
-  font-weight: 600; 
+  font-weight: 600;
+  margin-bottom: 1rem;
+  box-shadow: #047251;
+  background-color: #2972608a;
+  padding: 1rem 0;
+  margin: 1rem 0;
 }
 h3 {
   padding: 0.5rem 0;
@@ -152,7 +159,7 @@ button {
   padding: 1rem;
   border: none;
   border-radius: 1rem;
-  background-color: #2e9975;
+  background-color: #167555;
   color: aliceblue;
   font-size: 1rem;
   font-weight: 600;
