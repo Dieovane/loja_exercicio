@@ -5,8 +5,9 @@
 }
 
 body {
-  background-color: #4e2525;
+  background-color: #a3cec4;
   color: aliceblue;
+  overflow-x: hidden;
 }
 html {
   font-family: inter, sans-serif;
@@ -27,7 +28,7 @@ li {
   margin: 0 10px;
 }
 li a:hover {
-  color: #ffa07a;
+  color: #b1e4d4;
   transition: 0.3s;
 }
 nav {
@@ -35,16 +36,33 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px 10%;
-  background-color: #23181a;
+  background-color: #047251;
 }
 .logo {
   font-size: 2rem;
   font-family: "Teko", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
+  color: #e8fff8;
 }
 .logo:hover {
-  color: #ffa07a;
+  color: #a3cec4;
+  transition: 0.3s;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff2e7;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.menu a:hover {
+  color: #a3cec4;
   transition: 0.3s;
 }
 
@@ -57,7 +75,7 @@ nav {
 }
 
 .sobre {
-  background-color: #301010;
+  background-color: #62a897b4;
   padding: 5rem 10%;
   display: flex;
   gap: 5rem;
@@ -72,13 +90,20 @@ nav {
   width: 80%;
   height: 100%;
   object-fit: cover;
-  border-radius: 5rem;
+  border-radius: 2rem;
 }
 h1 {
   font-size: 2.5rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
+
+p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
 
 /* seção de produtos */
 .prod {
@@ -91,7 +116,7 @@ h1 {
 }
 
 .card {
-  background-color: rgba(65, 22, 15, 0.39);
+  background-color: #0e5f5283;
   border-radius: 1rem;
   padding: 0.5rem 2%;
   width: 100%;
@@ -127,7 +152,7 @@ button {
   padding: 1rem;
   border: none;
   border-radius: 1rem;
-  background-color: #301919;
+  background-color: #2e9975;
   color: aliceblue;
   font-size: 1rem;
   font-weight: 600;
@@ -142,7 +167,7 @@ button:hover {
 
 /*footer*/
 footer {
-  background: #23181a;
+  background: #478878;
   padding: 4rem;
   display: flex;
   flex-direction: column;
