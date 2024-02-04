@@ -202,12 +202,26 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-  .container {
+  header {
     flex-direction: column;
+    width: 100%;
+  }
+  .logo {
+    margin-bottom: 0.5rem;
+  }
+  .menu {
+    display: none;
+  }
+  .container {
+    display: block;
   }
   .body {
     padding: 0;
     overflow: hidden;
+    max-width: 90%;
+  }
+  h1 {
+    font-size: 2rem;
   }
   .sobre {
     flex-direction: column;
@@ -220,7 +234,7 @@ footer {
     border-radius: 2rem;
   }
   .prod {
-    grid-template-columns: repeat(1, 100%);
+    display: block;
     padding: 1rem 10%;
   }
   .card {
@@ -251,7 +265,8 @@ footer {
     background-color: #642020;
   }
   footer {
-    padding: 2rem;
+    padding: 1rem 0rem;
+    width: 100%;
   }
   .copy-footer {
     font-size: 0.8rem;
