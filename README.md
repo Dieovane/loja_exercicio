@@ -4,7 +4,6 @@
 <p align="center">Exercício de responsividade proposto pela Ebac</p>
 
 <img src=".github/preview.png"/>
-
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
