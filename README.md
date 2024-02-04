@@ -18,7 +18,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🚧 Projeto:
 
-Em construção
+Finalizado
+
+Site hospedado na Vercel: 
+https://dieovane-kikis-coffee-exercicio-ebac.vercel.app/
 
 ---
 
