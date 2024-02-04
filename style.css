@@ -201,7 +201,7 @@ footer {
   font-weight: 500;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 640px) {
   header {
     flex-direction: column;
     width: 100%;
@@ -276,7 +276,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 641px) and (max-width: 1023px) {
   html {
     width: 100%;
   }
